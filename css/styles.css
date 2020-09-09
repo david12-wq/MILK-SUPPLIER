@@ -1,0 +1,27 @@
+nav{
+    background-color:mediumvioletred;
+    width: 1200px;
+    height: 80px;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 40px 40px 40px 30PX;
+}
+#intro img{
+    width: 1000PX;
+    height: 400PX;
+    margin-top: 20px;
+
+}
+#intro{
+    display: flex;
+    justify-content:space-around;
+}
+h1{
+    text-align: center;
+}
+#photos img{
+    width: 350px;
+    height: 350px;
+    margin-right: 50px;
+}
