@@ -7,6 +7,9 @@ nav>ul>li{
     display: inline-block;
     padding: 40px 40px 40px 30PX;
 }
+nav>ul>li>a{
+   text-decoration: none;
+}
 #intro img{
     width: 1000PX;
     height: 400PX;
@@ -16,6 +19,7 @@ nav>ul>li{
 #intro{
     display: flex;
     justify-content:space-around;
+    
 }
 h1{
     text-align: center;
@@ -23,8 +27,30 @@ h1{
 #photos img{
     width: 300px;
     height: 300px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
+}
+#photos{
+    display: flex;
+    justify-content: space-around;
 }
 nav h1{
     justify-content: space-between;
+}
+#about{
+text-align: center;
+}
+#services{
+    text-align:center;
+}
+#services ul li{
+    list-style-type: none;
+}
+#photo h2{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+}
+#contact ul li{
+    list-style: none;
 }
